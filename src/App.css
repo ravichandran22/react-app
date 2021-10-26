@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about,
+.home,
+.products,
+.services,
+.SignUp {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 4rem;
+  height: 90vh;
+  align-items: center;
+  color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+.about {
+  background-image: url("images/img1.jfif");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.products {
+  background-image: url("images/img2.jfif");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.services {
+  background-image: url("images/img3.jfif");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.SignUp {
+  background-image: url("images/img4.jfif");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* For Tablet Responsive */
+@media screen and (max-width: 765px) {
+  .about,
+  .home,
+  .products,
+  .services,
+  .SignUp {
+    font-size: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+/* For Mobile Responsive */
+@media screen and (max-width: 320px) {
+  .about,
+  .home,
+  .products,
+  .services,
+  .SignUp {
+    font-size: 1.5rem;
   }
 }
