@@ -17,28 +17,28 @@
   color: #fff;
 }
 .about {
-  background-image: url("images/img1.jfif");
+  background-image: url("./images/img1.jfif");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .products {
-  background-image: url("images/img2.jfif");
+  background-image: url("./images/img2.jfif");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .services {
-  background-image: url("images/img3.jfif");
+  background-image: url("./images/img3.jfif");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .SignUp {
-  background-image: url("images/img4.jfif");
+  background-image: url("./images/img4.jfif");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
