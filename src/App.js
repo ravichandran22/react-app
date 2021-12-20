@@ -17,8 +17,6 @@ export default function App() {
           <Route path="/services" render={() => (<Services />)} />
           <Route path="/products" render={() => (<Products />)} />
           <Route path="/signup" render={() => (<SignUp />)} />
-          
-      
         </Switch>
       </Router>
     </>
